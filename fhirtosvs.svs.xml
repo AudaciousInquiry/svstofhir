@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008" xmlns:f="http://hl7.org/fhir">
+   <ValueSet displayName="AuditActiveParticipantRoleIDCode" id="1.2.840.10008.6.1.905" version="20100826">
+      <ConceptList xml:lang="en-US">
+         <concept code="110155" displayName="Source Media" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DICOM Code Definitions"/>
+         <concept code="110154" displayName="Destination Media" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DICOM Code Definitions"/>
+         <concept code="110153" displayName="Source Role ID" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DICOM Code Definitions"/>
+         <concept code="110152" displayName="Destination Role ID" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DICOM Code Definitions"/>
+         <concept code="110151" displayName="Application Launcher" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DICOM Code Definitions"/>
+         <concept code="110150" displayName="Application" codeSystem="1.2.840.10008.2.16.4" codeSystemName="DICOM Code Definitions"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
